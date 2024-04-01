@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: "CocktailRegular";
+  src: local("CocktailRegular"), url("./fonts/HV-Cocktail-Regular.woff2");
+  font-weight: regular;
+}
+
+@font-face {
+  font-family: "CocktailAlternates";
+  src: local("CocktailAlternates"), url("./fonts/HV-Cocktail-Alternates.woff2");
+  font-weight: regular;
+}
+
+@font-face {
+  font-family: "NordicSalt";
+  src: local("NordicSalt"), url("./fonts/NordicSalt-Regular.woff");
+  font-weight: regular;
+}
