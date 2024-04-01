@@ -31,7 +31,7 @@ const Carousel = () => {
         }, 5000);
 
         return () => clearInterval(intervalId);
-    }, []);
+    }, [carouselContent.length]);
 
     return (
         <div className="hero-container">
