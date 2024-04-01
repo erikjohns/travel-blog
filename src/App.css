@@ -12,11 +12,11 @@
 }
 
 .navbar-container h1 {
-  font-family: "CocktailRegular";
+  font-family: "CocktailRegular", serif;
 }
 
 .navbar-container h1 span {
-  font-family: "CocktailAlternates";
+  font-family: "CocktailAlternates", serif;
 }
 
 .navbar-container ul {
@@ -24,7 +24,7 @@
   list-style: none;
   width: 25%;
   justify-content: space-between;
-  font-family: "NordicSalt";
+  font-family: "NordicSalt", serif;
 }
 
 
@@ -51,7 +51,7 @@
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
-  font-family: "NordicSalt";
+  font-family: "NordicSalt", serif;
   margin: 0;
   padding: 0;
   width: 50%;
@@ -59,14 +59,14 @@
 
 .hero-text-container h1 {
   font-size: 80px;
-  font-family: "CocktailRegular";
+  font-family: "CocktailRegular", serif;
   line-height: normal;
   margin: 0;
   padding: 0;
 }
 
 .hero-text-container h1 span {
-  font-family: "CocktailAlternates";
+  font-family: "CocktailAlternates", serif;
 }
 
 .hero-text-container p {
@@ -86,7 +86,7 @@
   border: 2px solid white;
   color: white;
   font-size: 20px;
-  font-family: "NordicSalt";
+  font-family: "NordicSalt", serif;
   padding: 10px 30px;
   margin-top: 20px;
   border-radius: 10px;
@@ -101,6 +101,6 @@
 /* Section 1 Styling */
 
 .homepage-section .section-1 {
-  font-family: "NordicSalt";
+  font-family: "NordicSalt", serif;
 }
 

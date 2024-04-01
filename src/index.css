@@ -15,17 +15,17 @@ code {
 @font-face {
   font-family: "CocktailRegular";
   src: local("CocktailRegular"), url("./fonts/HV-Cocktail-Regular.woff2");
-  font-weight: regular;
+  font-weight: normal;
 }
 
 @font-face {
   font-family: "CocktailAlternates";
   src: local("CocktailAlternates"), url("./fonts/HV-Cocktail-Alternates.woff2");
-  font-weight: regular;
+  font-weight: normal;
 }
 
 @font-face {
   font-family: "NordicSalt";
   src: local("NordicSalt"), url("./fonts/NordicSalt-Regular.woff");
-  font-weight: regular;
+  font-weight: normal;
 }

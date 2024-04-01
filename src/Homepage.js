@@ -3,12 +3,12 @@ import Navbar from "./Components/Navbar";
 
 const Homepage = () => {
     return (
-        <div class="homepage">
+        <div className="homepage">
             <Navbar />
-            <div class="hero-container">
+            <div className="hero-container">
                 <Carousel />
-                <div class="homepage-section">
-                    <div class="section-1">
+                <div className="homepage-section">
+                    <div className="section-1">
                         <h1>My name is <em>Erik</em></h1>
                     </div>
                 </div>
