@@ -98,5 +98,9 @@
   background: white;
 }
 
+/* Section 1 Styling */
 
+.homepage-section .section-1 {
+  font-family: "NordicSalt";
+}
 
