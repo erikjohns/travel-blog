@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { FaFacebook, FaInstagram, FaXTwitter} from "react-icons/fa6";
 
 const Carousel = () => {
 
@@ -41,6 +42,11 @@ const Carousel = () => {
                 <h1>{carouselContent[currentIndex].mainText}</h1>
                 <h4>{carouselContent[currentIndex].subText}</h4>
                 <button>Read More</button>
+            </div>
+            <div className="social-media-links">
+                <FaInstagram color={"white"} className="icon" />
+                <FaXTwitter color={"white"} className="icon" />
+                <FaFacebook color={"white"} className="icon" />
             </div>
         </div>
     )
