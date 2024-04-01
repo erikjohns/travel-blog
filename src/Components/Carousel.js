@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FaFacebook, FaInstagram, FaXTwitter} from "react-icons/fa6";
+import { FaFacebookF, FaInstagram, FaXTwitter} from "react-icons/fa6";
 
 const Carousel = () => {
 
@@ -44,9 +44,9 @@ const Carousel = () => {
                 <button>Read More</button>
             </div>
             <div className="social-media-links">
-                <FaInstagram color={"white"} className="icon" />
-                <FaXTwitter color={"white"} className="icon" />
-                <FaFacebook color={"white"} className="icon" />
+                <a href={"https://www.instagram.com/erik_johns/"} target={"_blank"} rel="noopener noreferrer"><FaInstagram color={"white"} className="icon" /></a>
+                <a href={"https://twitter.com/erikjohns32"} target={"_blank"} rel="noopener noreferrer"><FaXTwitter color={"white"} className="icon" /></a>
+                <a href={"https://www.facebook.com/erik.johns.948/"} target={"_blank"} rel="noopener noreferrer"><FaFacebookF color={"white"} className="icon" /></a>
             </div>
         </div>
     )
