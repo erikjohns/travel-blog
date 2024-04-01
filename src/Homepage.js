@@ -1,6 +1,6 @@
 import Carousel from "./Components/Carousel";
 import Navbar from "./Components/Navbar";
-import FeaturedPosts from "./Components/FeaturedPosts";
+import FeaturedDestinations from "./Components/FeaturedDestinations";
 import Footer from "./Components/Footer";
 import {FaArrowRight} from "react-icons/fa6";
 
@@ -23,7 +23,7 @@ const Homepage = () => {
                     <h1>Ge<span>t</span> Inspi<span>red</span></h1>
                     <p>Read about some of my trips and see if they sound appealing to you.</p>
                 </div>
-                <FeaturedPosts />
+                <FeaturedDestinations />
             </div>
 
             <div className="newsletter-form">
