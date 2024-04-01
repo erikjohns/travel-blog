@@ -22,9 +22,36 @@
 .navbar-container ul {
   display: flex;
   list-style: none;
-  width: 25%;
+  width: 35%;
   justify-content: space-between;
   font-family: "NordicSalt", serif;
+}
+
+.navbar-container ul li {
+  font-size: 18px;
+}
+
+.hero-container .dot-indicators {
+  z-index: 999;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.hero-container .dot {
+  height: 10px;
+  width: 10px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  display: inline-block;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.hero-container .active {
+  background-color: #ffffff;
 }
 
 

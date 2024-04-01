@@ -36,7 +36,7 @@ const Carousel = () => {
 
     return (
         <div className="hero-container">
-            <img src={carouselContent[currentIndex].img} alt={carouselContent[currentIndex].imgAlt} />
+            <img src={carouselContent[currentIndex].img} alt={carouselContent[currentIndex].imgAlt}/>
             <div className="hero-text-container">
                 <p>Latest Post</p>
                 <h1>{carouselContent[currentIndex].mainText}</h1>
@@ -44,9 +44,21 @@ const Carousel = () => {
                 <button>Read More</button>
             </div>
             <div className="social-media-links">
-                <a href={"https://www.instagram.com/erik_johns/"} target={"_blank"} rel="noopener noreferrer"><FaInstagram color={"white"} className="icon" /></a>
-                <a href={"https://twitter.com/erikjohns32"} target={"_blank"} rel="noopener noreferrer"><FaXTwitter color={"white"} className="icon" /></a>
-                <a href={"https://www.facebook.com/erik.johns.948/"} target={"_blank"} rel="noopener noreferrer"><FaFacebookF color={"white"} className="icon" /></a>
+                <a href={"https://www.instagram.com/erik_johns/"} target={"_blank"}
+                   rel="noopener noreferrer"><FaInstagram color={"white"} className="icon"/></a>
+                <a href={"https://twitter.com/erikjohns32"} target={"_blank"} rel="noopener noreferrer"><FaXTwitter
+                    color={"white"} className="icon"/></a>
+                <a href={"https://www.facebook.com/erik.johns.948/"} target={"_blank"}
+                   rel="noopener noreferrer"><FaFacebookF color={"white"} className="icon"/></a>
+            </div>
+            <div className="dot-indicators">
+                {carouselContent.map((_, index) => (
+                    <span
+                        key={index}
+                        className={currentIndex === index ? "dot active" : "dot"}
+                        onClick={() => setCurrentIndex(index)}
+                    ></span>
+                ))}
             </div>
         </div>
     )

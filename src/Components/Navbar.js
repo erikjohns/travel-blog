@@ -1,3 +1,5 @@
+import {FaMagnifyingGlass} from "react-icons/fa6";
+
 const Navbar = () => {
     return (
         <div className="navbar-container">
@@ -7,6 +9,7 @@ const Navbar = () => {
                 <li>Destinations</li>
                 <li>About</li>
                 <li>Contact</li>
+                <li><FaMagnifyingGlass color={"white"}/></li>
             </ul>
         </div>
     )
