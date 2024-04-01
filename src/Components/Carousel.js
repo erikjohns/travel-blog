@@ -38,7 +38,7 @@ const Carousel = () => {
         <div className="hero-container">
             <img src={carouselContent[currentIndex].img} alt={carouselContent[currentIndex].imgAlt}/>
             <div className="hero-text-container">
-                <p>Latest Post</p>
+                <p>Featured Post</p>
                 <h1>{carouselContent[currentIndex].mainText}</h1>
                 <h4>{carouselContent[currentIndex].subText}</h4>
                 <button>Read More</button>
