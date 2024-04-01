@@ -124,6 +124,7 @@
   scrollbar-width: none;
   -ms-overflow-style: none;
   padding-bottom: 30px;
+  max-width: 70%;
 }
 
 .featured-posts::-webkit-scrollbar {
