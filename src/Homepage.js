@@ -3,6 +3,7 @@ import Navbar from "./Components/Navbar";
 import FeaturedDestinations from "./Components/FeaturedDestinations";
 import Footer from "./Components/Footer";
 import {FaArrowRight} from "react-icons/fa6";
+import WorldMap from "./Components/WorldMap";
 
 const Homepage = () => {
 
@@ -39,7 +40,20 @@ const Homepage = () => {
                     </button>
                 </form>
             </div>
-            <Footer />
+
+            <div className="destination-map-container">
+                <WorldMap />
+                <div className="map-text-container">
+                    <div className="top-container">
+                        <h1><span>Des</span>t<span>in</span>a<span>t</span>ion<span>s</span></h1>
+                        <p>See the destinations I've been to! Each and every one of them has their own unique flare. Click on a pin to learn more about the location.</p>
+                    </div>
+                    <div className="bottom-container">
+                        <p>Want to see the map in full screen? Click <a href={"/"}>HERE</a>.</p>
+                    </div>
+                </div>
+            </div>
+            <Footer/>
         </div>
     )
 };
